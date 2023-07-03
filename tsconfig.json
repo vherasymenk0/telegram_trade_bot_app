@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "isolatedModules": false,
+    "target": "es5",
+    "baseUrl": ".",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "ES2020",
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "compileOnSave": false,
+  "include": [
+    "src",
+    "./.eslintrc.js",
+    "./.prettierrc.js"
+  ]
+}
